@@ -1,0 +1,5 @@
+root Root
+node Leaf
+connect Root -> Leaf
+
+Root r = 0

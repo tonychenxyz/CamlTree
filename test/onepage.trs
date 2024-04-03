@@ -1,0 +1,20 @@
+open helloworld.trml as tree
+
+def sum(children):
+  return 0 $+= children
+  
+create A -> B ():
+  make <parent + rng([0, 1]) @2>
+
+eval B' -> A' ():
+  give 2 * parent + sum(children)
+
+create B -> C ():
+  make <parent + rng([1..2]) @2>
+
+eval C' -> B' ():  
+  give parent + sum(children)
+  
+tree.run().run()
+check tree == COMPLETE
+tree.replace()

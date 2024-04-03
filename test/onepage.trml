@@ -1,0 +1,10 @@
+root A  
+node B
+connect A -> B
+connect B -> C
+
+A a = 5
+B b1 <- a = 5  
+B b2 <- a = 6
+C c3 <- b3 = 7 ' 7
+C c4 <- b4 = 8 ' 8

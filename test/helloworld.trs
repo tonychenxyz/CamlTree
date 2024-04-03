@@ -1,0 +1,6 @@
+open helloworld.tree as tree
+
+create Root -> Leaf (): 
+  make <parent>
+
+tree.run()
