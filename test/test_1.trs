@@ -1,0 +1,26 @@
+open tree.trml as tree
+
+def sum(children):
+  return 0 $+= children
+
+create Tree -> A ():
+  make <parent>
+
+eval A' -> Tree' ():
+  give 2 * parent + sum(children)
+
+create A -> B ():
+  make <parent + 1 @2>
+
+eval B' -> A' (): 
+  give sum(children)
+
+create B -> C ():
+  make <parent + 2 @1>
+
+eval C' -> B' ():
+  give parent + sum(children)
+
+tree.run().run()
+check tree == COMPLETE
+tree.replace()
