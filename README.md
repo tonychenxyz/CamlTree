@@ -22,8 +22,8 @@ CamlTree is a programming language for running computations on trees. It enables
 ## Directory Structure
 
 - `/src`: Contains the source code for the language implementation
-  - `scanner.mll`: Defines the lexical conventions using OCamllex
-  - `parser.mly`: Defines the grammar rules using Menhir
+  - `scanner.mll`: Defines the lexical conventions
+  - `parser.mly`: Defines the grammar rules
   - `ast.ml`: Defines the Abstract Syntax Tree (AST) types
   - `prettyprint.ml`: Provides functions to pretty-print the AST
   - `tree.ml`: Implements the core functionalities of the CamlTree runtime
