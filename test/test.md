@@ -43,5 +43,3 @@ Here's a high-level overview of the program:
    - The `eval` statements define how to update the backward values of parent nodes based on the values of their child nodes.
    - The `def` statement defines a helper function `sum` to aggregate the values of child nodes.
 3. The program executes the forward and backward passes on the tree, checks for completeness, and then replaces the forward values with the backward values to prepare the tree for the next run.
-
-You can use this example as a starting point to test and further develop the CamlTree language implementation.
