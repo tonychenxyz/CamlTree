@@ -1,6 +1,6 @@
 
 
-Now, let's go through the steps to test this program:
+Test INstructions:
 
 1. Compile the scanner and parser:
 ```
