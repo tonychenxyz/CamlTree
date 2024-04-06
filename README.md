@@ -27,8 +27,4 @@ CamlTree is a programming language for running computations on trees. It enables
   - `ast.ml`: Defines the Abstract Syntax Tree (AST) types
   - `prettyprint.ml`: Provides functions to pretty-print the AST
   - `tree.ml`: Implements the core functionalities of the CamlTree runtime
-- `/test`: Contains sample programs written in CamlTree
-  - `helloworld.trml`: Hello World example in Tree Markup Language (TML)
-  - `helloworld.trs`: Hello World example in Tree Script (TRS)
-  - `onepage.trml`: Complex example showcasing various language features in TML
-  - `onepage.trs`: Corresponding TRS code for the one-page example
+- `/test`: Contains sample programs and test instructions
